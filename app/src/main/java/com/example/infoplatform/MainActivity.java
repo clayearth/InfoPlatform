@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         // 调用数据库工具类DBUtils的getInfoByName方法获取数据库表中数据
-                        HashMap<String, Object> map = DBUtils.getInfoByName("tftz");
+                        HashMap<String, Object> map = DataBaseUtils.getInfoByName("info");
                         Message message = handler.obtainMessage();
                         if(map != null){
                             String s = "";
