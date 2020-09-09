@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#949F86">
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:background="@drawable/chx_background1">
+    </View>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  AboutUs / 关于我们"
+        android:textColor="#036307"
+        android:textSize="28sp"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/btn_KnowUs"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/chx_button3"
+        android:text="KnowUs / 了解我们">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_ContactUs"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/chx_button3"
+        android:text="ContactUs / 联系我们"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_FindUs"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/chx_button3"
+        android:text="FindUs / 找到我们"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_EvaluateUs"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/chx_button3"
+        android:text="EvaluateUs / 评价我们"
+        >
+
+
+    </Button>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="500dp"
+        app:srcCompat="@drawable/chx_grass3" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="65dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/chx_aboutus1" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="65dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        app:srcCompat="@drawable/chx_aboutus2" />
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="65dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        app:srcCompat="@drawable/chx_aboutus3" />
+
+    <ImageView
+        android:id="@+id/image6"
+        android:layout_width="65dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="450dp"
+        app:srcCompat="@drawable/chx_aboutus4" />
+
+
+
+</RelativeLayout>

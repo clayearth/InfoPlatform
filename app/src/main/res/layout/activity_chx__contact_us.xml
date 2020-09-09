@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#949F86">
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:background="@drawable/chx_background1">
+    </View>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  ContactUs / 联系我们"
+        android:textColor="#036307"
+        android:textSize="28sp"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/knowus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电话1：18810166826（陈女士）\n邮箱1：cszkso@163.com"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/knowus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电话2：18876400980（董先生）\n邮箱2：dongyb@163.com"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/knowus3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电话3：18750090456（陶先生）\n邮箱3：thx@163.com"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/btngal"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="115dp"
+        android:layout_marginBottom="86dp"
+        android:background="@drawable/chx_button2"
+        android:gravity="center_horizontal"
+        android:text="返回主界面"
+        android:textColor="#036307"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
