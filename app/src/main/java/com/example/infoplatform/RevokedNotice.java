@@ -59,15 +59,15 @@ public class RevokedNotice extends AppCompatActivity {
             NoticeDao.insertNotice(bean);
         }
 
-       /* if (NoticeDao.queryNotesAll("2").size() == 2) {
+        if (NoticeDao.queryNotesAll("2").size() == 2) {
             NoticeBean bean = new NoticeBean();
-            bean.setTitle("2019年度玉米螟防治公告");
+            bean.setTitle("2020年度玉米螟防治测试公告");
             bean.setBody("2019年度玉米螟防治公告，请合理安排防治时间，采取必要防治措施。");
-            bean.setMoney("30万元");
+            bean.setMoney("40万元");
             bean.setPlace("黑龙江省");
             bean.setType("2");
             NoticeDao.insertNotice(bean);
-        }*/
+        }
 
         /*Return=findViewById(R.id.btngal);
         //给button设置点击事件

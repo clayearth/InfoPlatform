@@ -69,6 +69,36 @@ public class AnnouncedNotice extends AppCompatActivity {
             NoticeDao.insertNotice(bean);
         }
 
+        if (NoticeDao.queryNotesAll("1").size() == 3) {
+            NoticeBean bean = new NoticeBean();
+            bean.setTitle("2019年防治玉米螟公告");
+            bean.setBody("力争经过2—3个月时间，防控全部实行专业化统防统治；防控能力和水平显著提升；防治效果、效益和效率显著提高。");
+            bean.setMoney("10万元");
+            bean.setPlace("宁夏回族自治区");
+            bean.setType("1");
+            NoticeDao.insertNotice(bean);
+        }
+
+        if (NoticeDao.queryNotesAll("1").size() == 4) {
+            NoticeBean bean = new NoticeBean();
+            bean.setTitle("2020年度玉米螟防治公告");
+            bean.setBody("防控能力和水平显著提升；防治效果、效益和效率显著提高。");
+            bean.setMoney("75万元");
+            bean.setPlace("黑龙江省");
+            bean.setType("1");
+            NoticeDao.insertNotice(bean);
+        }
+
+        if (NoticeDao.queryNotesAll("1").size() == 5) {
+            NoticeBean bean = new NoticeBean();
+            bean.setTitle("2020年度稻瘟病防治公告");
+            bean.setBody("2018年度稻瘟病防治公告，请各单位注意及时防治。");
+            bean.setMoney("40万元");
+            bean.setPlace("辽宁省");
+            bean.setType("1");
+            NoticeDao.insertNotice(bean);
+        }
+
         /*Return=findViewById(R.id.btngal);
         //给button设置点击事件
         Return.setOnClickListener(new View.OnClickListener() {
