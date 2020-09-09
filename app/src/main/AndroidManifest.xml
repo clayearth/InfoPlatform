@@ -9,6 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".chx_EvaluateUs" />
+        <activity android:name=".chx_FindUs" />
+        <activity android:name=".chx_ContactUs" />
+        <activity android:name=".chx_KnowUs" />
+        <activity android:name=".chx_AboutUs" />
+        <activity android:name=".chx_UserType" />
+        <activity android:name=".chx_PreventionAndControlOrganization" />
+        <activity android:name=".chx_PlantProtectionUnit" />
+        <activity android:name=".chx_Growers" />
+        <activity android:name=".NotAnnouncedNotice" />
+        <activity android:name=".AnnouncedNotice" />
+        <activity android:name=".RevokedNotice" />
+        <activity android:name=".NoticeType" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
