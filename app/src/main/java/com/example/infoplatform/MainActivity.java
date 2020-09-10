@@ -41,6 +41,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        UserTypeButton=findViewById(R.id.btn_STA);
+        //给button设置点击事件
+        UserTypeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //跳转到TextView演示界面STA
+                Intent intent = new Intent(MainActivity.this, STAType.class);
+                startActivity(intent);
+            }
+        });
+
         AboutUsButton=findViewById(R.id.btn_AboutUs);
         //给button设置点击事件
         AboutUsButton.setOnClickListener(new View.OnClickListener() {
