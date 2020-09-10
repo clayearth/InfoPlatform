@@ -13,7 +13,7 @@
         android:textColor="#3B5C11"
         android:textStyle="bold"
         android:textSize="22sp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
         android:typeface="sans" />
 
 
@@ -30,7 +30,7 @@
             android:layout_height="60dp"
             android:layout_alignParentBottom="true"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="170dp"
             android:background="@drawable/chx_button1"
             android:text="查看用户信息"
             android:textColor="#ffffff"
@@ -67,7 +67,7 @@
         </Button>
 
         <Button
-            android:id="@+id/btn_STA"
+            android:id="@+id/btn_BlockInfo"
             android:layout_width="330dp"
             android:layout_height="60dp"
             android:background="@drawable/chx_button1"
@@ -81,7 +81,7 @@
         </Button>
 
         <Button
-            android:id="@+id/btn_STA"
+            android:id="@+id/btn_JoInfo"
             android:layout_width="330dp"
             android:layout_height="60dp"
             android:background="@drawable/chx_button1"
