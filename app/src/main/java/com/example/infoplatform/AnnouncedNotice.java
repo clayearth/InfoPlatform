@@ -44,7 +44,7 @@ public class AnnouncedNotice extends AppCompatActivity {
             bean.setTitle("2018年防治玉米螟公告");
             bean.setBody("2018年要把专业化统防统治实施重点放在玉米螟防控上，力争经过2—3个月时间，防控全部实行专业化统防统治；防控能力和水平显著提升；防治效果、效益和效率显著提高。要实现上述目标，必须重点着力抓好专业化防治队伍建设；着力推进规范化管理；着力抓好指导服务工作；着力抓好典型示范；着力提升专业化统防统治现代化水平。");
             bean.setMoney("50万元");
-            bean.setPlace("黑龙江省");
+            bean.setPlace("北京市");
             bean.setType("1");
             NoticeDao.insertNotice(bean);
         }
