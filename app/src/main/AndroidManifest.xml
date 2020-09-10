@@ -22,6 +22,10 @@
         <activity android:name=".AnnouncedNotice" />
         <activity android:name=".RevokedNotice" />
         <activity android:name=".NoticeType" />
+        <activity android:name=".STAType" />
+        <activity android:name=".STA_Organization" />
+        <activity android:name=".STA_Area" />
+        <activity android:name=".STA_AllData" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
